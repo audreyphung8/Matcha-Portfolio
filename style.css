@@ -1,0 +1,279 @@
+html,
+body 
+{
+  margin: 0;
+  padding: 0;
+  background: #c0cfb2;
+}
+
+.main-header
+{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title 
+{
+  text-align: center;
+  margin: 0;
+  font-size: 8em;
+  font-family: "Lucida Handwriting";
+  font-weight: normal;
+  color: #f1ebe1;
+  background-color: #8ba888
+}
+
+.title2 
+{
+  text-align: center;
+  margin: 0;
+  font-size: 18;
+  font-family: "Lucida Handwriting";
+  font-weight: normal;
+  color: #f1ebe1;
+  background-color: #8ba888
+}
+
+#card-container 
+{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+
+#milk-container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+#sugar-container 
+{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 10px;
+  justify-content: center;
+  margin: 80px;
+  padding-top: 50px;
+}
+
+#topping-container
+{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#all-container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#chosen-container
+{
+  gap: 10px;
+  position: absolute;
+  right: 0;
+  margin-top: -300px;
+  margin-right: 500px;
+}
+
+.card
+{
+  width: 300px;
+  max-width: 300px;
+  min-width: 250px;
+  border: 50px 	#ffffff;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 	#ffffff;
+}
+
+.card-content 
+{
+  padding: 20px;
+  font-family: "Verdana";
+  color: 	#ffffff;
+}
+
+.card-content h2 
+{
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.card img 
+{
+  width: 100%;
+  height: auto;
+}
+
+.footer 
+{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.whisk button 
+{
+  text-align: center;
+  background-color: #666;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: -300px;
+}
+
+.center 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.hidden 
+{
+  display: none;
+}
+
+.final-product
+{
+  gap: 10px;
+  margin-top: -200px;
+  margin-left: 30px;
+}
+
+.choose-milk 
+{
+  gap: 10px; 
+  margin-top: -575px; 
+  margin-left: 30px;
+}
+
+.choose-sugar
+{
+  gap: 10px; 
+  margin-top: -910px; 
+  margin-left: 20px;
+}
+
+.matcha-image 
+{
+  margin-top: -500px;
+  margin-left: 450px;
+  width: 300px;
+}
+
+.overall
+{
+  gap: 10px; 
+  margin-top: 75px; 
+  margin-left: 300px;
+}
+
+.itemName
+{
+  font-family: "Baskerville";
+  font-size: 24px;
+}
+
+.add-ons
+{
+  margin-left: 30px;
+}
+
+.last
+{
+  padding-top: 30px;
+  padding-left: 300px;
+}
+
+.topnav 
+{
+  overflow: hidden;
+  background-color: #44624a;
+}
+
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Lucida Handwriting";
+}
+
+.topnav a:hover 
+{
+  background-color: #c0cfb2;
+  color: #ffffff;
+}
+
+.topnav a.active 
+{
+  background-color: #c0cfb2;
+  color: #ffffff;
+}
+
+.row 
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.row img
+{
+  flex: 50%;
+  width: 300px;
+  max-width: 300px;
+  min-width: 250px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.tutorial 
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tutorial img
+{
+  flex: 50%;
+  width: 100px;
+  max-width: 100px;
+  min-width: 300px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 100%;
+}

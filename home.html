@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>୧ ‧₊˚ 🍵 ⋅</title>
+    <link rel="icon" type="image/jpg" href="images/matcha-favicon.jpg">
+    <meta name="description" content="This is my usual routine when I make my morning matcha" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a class="active" href="home.html">Make a Matcha</a>
+  </div>
+
+    <header class="main-header">
+      <h1 class="title">Let's Make a Matcha!</h1>
+    </header>
+
+    <div id="page1" style="display: flex; align-items: center; gap: 10px;">
+      <img src="https://sdk.bitmoji.com/render/panel/10216761-150807873_36-s5-v1.png?transparent=1&palette=1&scale=2" alt="Bitmoji-1" width="200" height="200" />
+      <p style="font-size: 24px; font-family: Baskerville;"> Matcha preparation is soothing and calming. Taking your time to sift, whisk, and pour your matcha
+        ensures that there's nutrients and quality in every cup you make. It's the best way to start my mornings because I feel myself more present in the moment. 
+        Let me take you along and show you how to make matcha at home! Start by choosing a matcha blend.
+      </p>
+    </div>
+
+
+    <div id="card-container">
+      <div class="card" style="display: none">
+        <div class="card-content">
+          <h2>Show Matcha Cans</h2>
+          <img src="" alt="Matcha Cans" />
+        </div>
+      </div>
+    </div>
+    
+    <div id="milk-container" class="hidden"></div>
+    <div class="card" style="display: none">
+      <div class="card-content">
+        <h2>Show Milk Substitutions</h2>
+        <img src="" alt="Milk" />
+      </div>
+    </div>
+
+    <div id="second-bitmoji" class="choose-milk hidden">
+      <img src="https://sdk.bitmoji.com/render/panel/20074496-150807873_36-s5-v1.png?transparent=1&palette=1&scale=2" alt="Bitmoji-3" width="200" height="200" />
+      <p style="font-size: 24px;font-family: Baskerville;"> Depending on the milk that is used, it can help bring out the flavor. Oat milk makes the matcha taste more nutty
+        while whole milk makes it taste sweet. Choose a milk! 
+      </p>
+    </div>
+
+    <div id="sugar-container" class="hidden"></div>
+    <div class="card" style="display: none">
+      <div class="card-content">
+        <h2>Show Sweetner Options</h2>
+        <img src="" alt="Sugar" />
+      </div>
+    </div>
+
+    <div id="third-bitmoji" class="choose-sugar hidden">
+      <img src="https://sdk.bitmoji.com/render/panel/10212281-150807873_36-s5-v1.png?transparent=1&palette=1&scale=2" alt="Bitmoji-4" width="200" height="200" />
+      <p style="font-size: 24px;font-family: Baskerville;">The type of sweetner you use also affects the taste. You don't want to use too much so that 
+        it doesn't mask the matcha flavor. Maple syrup makes it taste like a dessert, agave is very neutral (recommended), and honey makes it taste like a milk tea. Choose a sweetner or unsweeten it if you can handle how strong it is! 😝
+      </p>
+    </div>
+
+    <div id="fifth-bitmoji" class="add-ons hidden">
+      <img src="https://sdk.bitmoji.com/render/panel/20091001-150807873_36-s5-v1.png?transparent=1&palette=1&scale=2" alt="Bitmoji-5" width="200" height="200" />
+      <p style="font-size: 24px;font-family: Baskerville;">There are so many fun and creative ways to enjoy a matcha! If you're feeling like
+        you want a sweet treat, feel free to add a cream top, banana pudding, pinch of salt, or cinnamon. 
+      </p>
+    </div>
+
+    <div id="topping-container" class="hidden"></div>
+    <div class="card" style="display: none">
+      <div class="card-content">
+        <h2>Show Topping Options</h2>
+        <img src="" alt="Topping" />
+      </div>
+    </div>
+
+    <div id="all-container" class="hidden"></div>
+    <div class="card" style="display: none">
+      <div class="card-content">
+        <h2>Show All Options</h2>
+        <img src="" alt="All" />
+      </div>
+    </div>
+
+    <div id="four-bitmoji" class="overall hidden">
+      <img src="https://sdk.bitmoji.com/render/panel/9788649-150807873_36-s5-v1.png?transparent=1&palette=1&scale=2" alt="Bitmoji-5" width="200" height="200" />
+      <p style="font-size: 24px;font-family: Baskerville;"> Are you ready to make the matcha? If not, click to substitute it with something else! 
+      </p>
+    </div>
+
+    <div class="center">
+      <div class="whisk hidden">
+        <button onclick="whisk()">Let's Whisk!</button>
+      </div>
+    </div>
+    
+    <div id="last-step" class="final-product hidden">
+      <p style="font-size: 24px;font-family: Baskerville;">First, sift out 2 tsp of matcha. Then, pour 1/4 cup of water and whisk for 2 minutes in a "W" or "M" motion.
+      When you get to the last 30 seconds of whisking, slow down and whisk only the surface of the tea so that it will break down the bigger bubbles. This creates a creamy 
+      microfoam that will make your matcha creamy! Fill your cup with LOTS of ice and add 3/4 cup of milk. Pour the matcha over and wow look how green it is 😍</p>
+      <div class="tutorial">
+        <img src="images/step1.jpg">
+        <img src="images/step2.jpg">
+        <img src="images/mymatcha.jpg">
+      </div>
+    </div> 
+
+    <div id="last-bitmoji" class="last hidden">
+      <img src="https://sdk.bitmoji.com/render/panel/20026949-150807873_36-s5-v1.png?transparent=1&palette=1&scale=2" alt="Bitmoji-2" width="300" height="300" />
+    </div>
+
+    <div id="chosen-container" class="hidden"></div>
+    <div class="card" style="display: none">
+      <div class="card-content">
+        <h2>Result</h2>
+        <img src="" alt="Result pics" />
+      </div>
+    </div>
+  </body>
+</html>
